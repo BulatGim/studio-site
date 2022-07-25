@@ -1,0 +1,28 @@
+
+$black: #212121;
+
+.footer{
+  *{
+    padding: 0;
+  }
+  position: relative;
+  background-color: #212121;
+  color: #FFFFFF;
+  .row{
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  
+  h2{
+    color: #FFFFFF;
+    font-size: 2em;
+    font-weight: 600;
+  }
+  span,a{
+    font-weight: 400;
+  }
+  a{
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+}

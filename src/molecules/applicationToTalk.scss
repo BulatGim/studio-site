@@ -1,0 +1,67 @@
+.applicationToTalk{
+  background: linear-gradient(#2D29E8,#452CE0);
+
+
+  .form{
+    .contactMethod{
+      border: 4px solid #FFFFFF;
+      border-radius: 10px;
+      &__radioButton{
+        display: none;
+      }
+      &__active{
+        margin: 0;
+        background: #FFFFFF;
+        color: #212121;
+        width: 50%;
+        text-align: center;
+        border-radius: 5px;
+      }
+      &__inActive{
+        margin: 0;
+        width: 50%;
+        text-align: center;
+      }
+    }
+    .input{
+      border: 4px solid #FFFFFF;
+      border-radius: 10px;
+      input::-webkit-input-placeholder {
+        color: #FFFFFF;
+       }
+       input::-moz-placeholder {
+        color: #FFFFFF;
+       }
+      *:focus {
+          outline: none;
+      }
+      .phoneMask{
+        display: block;
+        color: #FFFFFF;
+        background-color: inherit;
+        border: 0;
+      }
+      .datePicker{
+        background-color: inherit;
+        border: 0;
+        color: #FFFFFF;
+      }
+      &__text{
+        opacity: 0.7;
+      }
+      &__img{
+      }
+      &__submit{
+        width: 100%;
+        background: #FFFFFF;
+        color: #212121;
+        border-radius: 10px;
+        padding: 0.625rem;
+        font-weight: 600;
+        border: 0;
+      }
+    }
+  }
+
+
+}

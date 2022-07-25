@@ -1,0 +1,36 @@
+
+.portfolioCase{
+
+  overflow-x: hidden;
+  .aboutRevomed{
+    span{
+      font-size: 0.875rem;
+      color: #FFF;
+      opacity: 0.4;
+      display: block;
+    }
+    h2,h3{
+      color: #FFFFFF;
+    }
+    background: #212121;
+    &__cases{
+      color: #FFFFFF !important;
+      opacity: 1;
+    }
+    .description{
+      font-size: 1.125rem;
+      line-height: 2rem;
+      color: #FFFFFF;
+      margin-bottom: 0;
+    }
+    .areasOfDevelopment{
+      &__point{
+        text-align: right;
+        margin-bottom: 0.625rem;
+      }
+    }
+  }
+  .link{
+    text-align: center;
+  }
+}

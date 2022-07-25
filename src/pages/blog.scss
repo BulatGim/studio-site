@@ -1,0 +1,55 @@
+.blog{
+  background: #E5E5E5;
+  overflow-x: hidden;
+    .heading{
+      &__sphere{
+        border-radius: 99px;
+        padding: 0.625rem 1.25rem;
+      }
+      &__title{
+        color: #FFFFFF;
+      }
+      &__date{
+        opacity: 0.4;
+        color: #FFFFFF;
+      }
+    }
+  .textOfArticle{
+    &__text{
+      margin-top: -8.125rem;
+      font-size: 1.125rem;
+    }
+  }
+  .author{
+    padding: 1.25rem 1.25rem;
+    margin: 1.875rem auto 0 auto;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    &__name{
+      display: block;
+      font-size: 1.125rem;
+      font-weight: 600;
+    }
+    &__post{
+      display: block;
+      font-size: 0.875rem;
+      opacity: 0.5;
+    }
+    .share{
+      margin:1.875rem auto 0 auto;
+      text-align: center;
+      &__text{
+        font-size: 0.875rem;
+        opacity: 0.8;
+      }
+      &__method{
+        margin: 1.25rem auto;
+
+        @media(min-width: 720px){
+          margin: 0.625rem 0.625rem 0.625rem 0;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+.latestNews{
+  min-width: 100%;
+  min-height: 100%;
+  overflow-x: scroll;
+  &__heading{
+    font-weight: 600;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  a{
+    text-decoration: none;
+  }
+  .peaceOfNews{
+    min-width: 400px;
+    &__areaOfDevelopment{
+      text-align: right;
+      padding: 1.875rem 1.875rem 3.75rem 0;
+      &_child{
+        border-radius: 99px;
+        padding: 0.625rem 1.25rem 0.625rem 1.25rem;
+        background: black;
+        color: #FFFFFF;
+      }
+    }
+    &__heading{
+    }
+    &__date{
+      color: #212121;
+      opacity: 0.4;
+    }
+  }
+
+}

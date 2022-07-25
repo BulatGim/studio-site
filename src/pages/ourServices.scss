@@ -1,0 +1,43 @@
+.ourServices{
+  background: #E5E5E5;
+  overflow-x: auto;
+  .thingsWeDo{
+    .services{
+      &__heading{
+        font-size: 0.875rem;
+        color: #212121;
+        opacity: 0.8;
+        display: block;
+      }
+      &__point{
+        margin-top: 1.25rem;
+      }
+    }
+  }
+  .developmentStages{
+    background: #FFFFFF;
+    &__text{
+      margin: 1.875rem 0 1.875rem auto;
+      @media(min-width: 768px){
+        margin: 3.75rem 0 3.75rem auto;
+      }
+
+      padding-top: 1.875rem;
+      &_testing{
+        margin: 3.75rem 0 0 auto;
+      }
+    }
+    &__research{
+
+    }
+    &__engineering{
+
+    }
+    &__design{
+
+    }
+    &__development{
+
+    }
+  }
+}

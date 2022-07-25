@@ -1,0 +1,38 @@
+$black: #212121;
+
+
+.header{
+  background-color: #E5E5E5;
+  .row{
+    @media (min-width: 720px) {
+      margin-left: -15px;
+      margin-right: -15px;
+    }
+    .logoAndPhone{
+      width: 100%;
+      @media (min-width: 720px){
+        width: auto;
+      }
+      @media (min-width: 200px) {
+        display: flex;
+  			justify-content: space-between;
+  		}
+      &__phoneNumber{
+        margin: 0 1.25rem 0 1.875rem;
+        text-align: right;
+        text-decoration: none;
+        color: black;
+        @media (min-width: 200px) {
+    			right: 0;
+    		}
+      }
+    }
+    .menu{
+      &__link{
+        text-decoration: none;
+        color: black;
+      }
+    }
+  }
+
+}
